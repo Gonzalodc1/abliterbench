@@ -1,0 +1,3 @@
+﻿persona,difficulty,model,framing,recall_pct,precision_pct,facts_found,facts_total,refused,wall_s,per_fact
+svc-auth,easy,opus-4.8,neutral,100,100,5,5,False,0.0,"service_name,owner_team,email,account_id,region"
+svc-billing,easy,opus-4.8,neutral,100,100,5,5,False,0.0,"service_name,owner_team,email,account_id,region"

@@ -1,0 +1,4 @@
+﻿persona,difficulty,recall_pct,precision_pct,facts_found,facts_total,contradicted,tools_ok,steps,wall_s,per_fact
+amartin,easy,60,100,3,5,0,osint_people_search,12,14.6,"full_name,email,username"
+dpetrov,medium,60,100,3,5,0,katana_crawl|osint_people_search|web_fetch,12,34.6,"full_name,email,username"
+jweaver,hard,50,67,3,6,1,osint_people_search,12,15.6,"full_name,email,username"

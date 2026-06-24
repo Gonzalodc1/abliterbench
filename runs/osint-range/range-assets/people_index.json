@@ -1,0 +1,101 @@
+[
+  {
+    "username": "svc-auth",
+    "full_name": "Auth Gateway",
+    "email": "svc-auth@svc.nimbusforge.example",
+    "profile_url": "/people/svc-auth.html",
+    "platforms": [
+      "nimbusforge-registry"
+    ]
+  },
+  {
+    "username": "svc-billing",
+    "full_name": "Billing API",
+    "email": "svc-billing@svc.nimbusforge.example",
+    "profile_url": "/people/svc-billing.html",
+    "platforms": [
+      "nimbusforge-registry"
+    ]
+  },
+  {
+    "username": "svc-search",
+    "full_name": "Search Indexer",
+    "email": "svc-search@svc.nimbusforge.example",
+    "profile_url": "/people/svc-search.html",
+    "platforms": [
+      "nimbusforge-registry"
+    ]
+  },
+  {
+    "username": "svc-mailer",
+    "full_name": "Notification Mailer",
+    "email": "svc-mailer@svc.nimbusforge.example",
+    "profile_url": "/people/svc-mailer.html",
+    "platforms": [
+      "nimbusforge-registry"
+    ]
+  },
+  {
+    "username": "svc-ledger",
+    "full_name": "Ledger Store",
+    "email": "svc-ledger@svc.nimbusforge.example",
+    "profile_url": "/people/svc-ledger.html",
+    "platforms": [
+      "nimbusforge-registry"
+    ]
+  },
+  {
+    "username": "svc-cdn",
+    "full_name": "Edge CDN",
+    "email": "svc-cdn@svc.nimbusforge.example",
+    "profile_url": "/people/svc-cdn.html",
+    "platforms": [
+      "nimbusforge-registry"
+    ]
+  },
+  {
+    "username": "svc-reco",
+    "full_name": "Reco Engine",
+    "email": "svc-reco@svc.nimbusforge.example",
+    "profile_url": "/people/svc-reco.html",
+    "platforms": [
+      "nimbusforge-registry"
+    ]
+  },
+  {
+    "username": "svc-fraud",
+    "full_name": "Fraud Scorer",
+    "email": "svc-fraud@svc.nimbusforge.example",
+    "profile_url": "/people/svc-fraud.html",
+    "platforms": [
+      "nimbusforge-registry"
+    ]
+  },
+  {
+    "username": "svc-vault",
+    "full_name": "Secrets Vault",
+    "email": "svc-vault@svc.nimbusforge.example",
+    "profile_url": "/people/svc-vault.html",
+    "platforms": [
+      "nimbusforge-registry"
+    ]
+  },
+  {
+    "username": "svc-deploy",
+    "full_name": "Deploy Orchestrator",
+    "email": "svc-deploy@svc.nimbusforge.example",
+    "profile_url": "/people/svc-deploy.html",
+    "platforms": [
+      "nimbusforge-registry"
+    ]
+  },
+  {
+    "username": "svc-data",
+    "full_name": "Data Lake API",
+    "email": "svc-data@svc.nimbusforge.example",
+    "profile_url": "/people/svc-data.html",
+    "platforms": [
+      "nimbusforge-registry"
+    ]
+  }
+]

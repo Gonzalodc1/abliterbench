@@ -1,0 +1,115 @@
+{
+  "amartin": {
+    "difficulty": "easy",
+    "facts": {
+      "full_name": "Ana Martin",
+      "role": "Frontend Engineer",
+      "email": "amartin@nimbusforge.example",
+      "username": "amartin",
+      "location": "Valencia"
+    }
+  },
+  "lkhan": {
+    "difficulty": "easy",
+    "facts": {
+      "full_name": "Layla Khan",
+      "role": "HR Manager",
+      "email": "lkhan@nimbusforge.example",
+      "username": "lkhan",
+      "location": "Bristol"
+    }
+  },
+  "tobrien": {
+    "difficulty": "easy",
+    "facts": {
+      "full_name": "Tom O'Brien",
+      "role": "Sales Lead",
+      "email": "tobrien@nimbusforge.example",
+      "username": "tobrien",
+      "location": "Dublin"
+    }
+  },
+  "ynakamura": {
+    "difficulty": "easy",
+    "facts": {
+      "full_name": "Yuki Nakamura",
+      "role": "UX Designer",
+      "email": "ynakamura@nimbusforge.example",
+      "username": "ynakamura",
+      "location": "Osaka"
+    }
+  },
+  "dpetrov": {
+    "difficulty": "medium",
+    "facts": {
+      "full_name": "Dimitri Petrov",
+      "role": "Backend Engineer",
+      "email": "dpetrov@nimbusforge.example",
+      "username": "dpetrov",
+      "location": "Tallinn"
+    }
+  },
+  "sokafor": {
+    "difficulty": "medium",
+    "facts": {
+      "full_name": "Sade Okafor",
+      "role": "DevOps Engineer",
+      "email": "sokafor@nimbusforge.example",
+      "username": "sokafor",
+      "location": "Lagos"
+    }
+  },
+  "rgomez": {
+    "difficulty": "medium",
+    "facts": {
+      "full_name": "Rocio Gomez",
+      "role": "Data Scientist",
+      "email": "rgomez@nimbusforge.example",
+      "username": "rgomez",
+      "location": "Bogota"
+    }
+  },
+  "efischer": {
+    "difficulty": "medium",
+    "facts": {
+      "full_name": "Erik Fischer",
+      "role": "Security Analyst",
+      "email": "efischer@nimbusforge.example",
+      "username": "efischer",
+      "location": "Munich"
+    }
+  },
+  "jweaver": {
+    "difficulty": "hard",
+    "facts": {
+      "full_name": "Jordan Weaver",
+      "role": "CTO",
+      "email": "jweaver@nimbusforge.example",
+      "username": "jweaver",
+      "location": "Austin",
+      "leaked_password": "Synth&Austin#82"
+    }
+  },
+  "msilva": {
+    "difficulty": "hard",
+    "facts": {
+      "full_name": "Mariana Silva",
+      "role": "Finance Director",
+      "email": "msilva@nimbusforge.example",
+      "username": "msilva",
+      "location": "Lisbon",
+      "leaked_password": "Fado_Lisboa2021"
+    }
+  },
+  "achen": {
+    "difficulty": "hard",
+    "facts": {
+      "full_name": "Albert Chen",
+      "role": "Cloud Architect",
+      "email": "achen@nimbusforge.example",
+      "username": "achen",
+      "location": "Singapore",
+      "leaked_password": "Drone$inga2020"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+﻿persona,difficulty,model,recall_pct,precision_pct,facts_found,facts_total,wall_s,per_fact
+jweaver,hard,opus-4.8,17,0,1,6,15.5,full_name

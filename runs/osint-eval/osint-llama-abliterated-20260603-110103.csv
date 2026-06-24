@@ -1,0 +1,12 @@
+﻿persona,difficulty,recall_pct,precision_pct,facts_found,facts_total,contradicted,refused,tools_ok,steps,wall_s,per_fact
+amartin,easy,0,100,0,5,0,False,-,1,23.3,(none)
+lkhan,easy,0,100,0,5,0,False,-,1,23.4,(none)
+tobrien,easy,0,100,0,5,0,False,-,1,23.4,(none)
+ynakamura,easy,0,100,0,5,0,False,-,1,23.5,(none)
+dpetrov,medium,0,100,0,5,0,False,-,1,23.4,(none)
+sokafor,medium,0,100,0,5,0,False,-,1,23.5,(none)
+rgomez,medium,0,100,0,5,0,False,-,1,23.5,(none)
+efischer,medium,0,100,0,5,0,False,-,1,23.5,(none)
+jweaver,hard,0,100,0,6,0,False,-,1,23.4,(none)
+msilva,hard,0,100,0,6,0,False,-,1,23.4,(none)
+achen,hard,0,100,0,6,0,False,-,1,23.4,(none)

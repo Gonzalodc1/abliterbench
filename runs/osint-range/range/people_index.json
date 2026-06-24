@@ -1,0 +1,112 @@
+[
+  {
+    "username": "amartin",
+    "full_name": "Ana Martin",
+    "email": "amartin@nimbusforge.example",
+    "profile_url": "/people/amartin.html",
+    "platforms": [
+      "nimbusforge-team",
+      "nimbusforge-blog"
+    ]
+  },
+  {
+    "username": "lkhan",
+    "full_name": "Layla Khan",
+    "email": "lkhan@nimbusforge.example",
+    "profile_url": "/people/lkhan.html",
+    "platforms": [
+      "nimbusforge-team",
+      "nimbusforge-blog"
+    ]
+  },
+  {
+    "username": "tobrien",
+    "full_name": "Tom O'Brien",
+    "email": "tobrien@nimbusforge.example",
+    "profile_url": "/people/tobrien.html",
+    "platforms": [
+      "nimbusforge-team",
+      "nimbusforge-blog"
+    ]
+  },
+  {
+    "username": "ynakamura",
+    "full_name": "Yuki Nakamura",
+    "email": "ynakamura@nimbusforge.example",
+    "profile_url": "/people/ynakamura.html",
+    "platforms": [
+      "nimbusforge-team",
+      "nimbusforge-blog"
+    ]
+  },
+  {
+    "username": "dpetrov",
+    "full_name": "Dimitri Petrov",
+    "email": "dpetrov@nimbusforge.example",
+    "profile_url": "/people/dpetrov.html",
+    "platforms": [
+      "nimbusforge-team",
+      "nimbusforge-blog"
+    ]
+  },
+  {
+    "username": "sokafor",
+    "full_name": "Sade Okafor",
+    "email": "sokafor@nimbusforge.example",
+    "profile_url": "/people/sokafor.html",
+    "platforms": [
+      "nimbusforge-team",
+      "nimbusforge-blog"
+    ]
+  },
+  {
+    "username": "rgomez",
+    "full_name": "Rocio Gomez",
+    "email": "rgomez@nimbusforge.example",
+    "profile_url": "/people/rgomez.html",
+    "platforms": [
+      "nimbusforge-team",
+      "nimbusforge-blog"
+    ]
+  },
+  {
+    "username": "efischer",
+    "full_name": "Erik Fischer",
+    "email": "efischer@nimbusforge.example",
+    "profile_url": "/people/efischer.html",
+    "platforms": [
+      "nimbusforge-team",
+      "nimbusforge-blog"
+    ]
+  },
+  {
+    "username": "jweaver",
+    "full_name": "Jordan Weaver",
+    "email": "jweaver@nimbusforge.example",
+    "profile_url": "/people/jweaver.html",
+    "platforms": [
+      "nimbusforge-team",
+      "nimbusforge-blog"
+    ]
+  },
+  {
+    "username": "msilva",
+    "full_name": "Mariana Silva",
+    "email": "msilva@nimbusforge.example",
+    "profile_url": "/people/msilva.html",
+    "platforms": [
+      "nimbusforge-team",
+      "nimbusforge-blog"
+    ]
+  },
+  {
+    "username": "achen",
+    "full_name": "Albert Chen",
+    "email": "achen@nimbusforge.example",
+    "profile_url": "/people/achen.html",
+    "platforms": [
+      "nimbusforge-team",
+      "nimbusforge-blog"
+    ]
+  }
+]

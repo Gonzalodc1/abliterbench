@@ -1,0 +1,62 @@
+{
+  "cache.py": [
+    {
+      "line": 9,
+      "cwe": "CWE-22",
+      "desc": "Path traversal: user path joined without containment check"
+    },
+    {
+      "line": 14,
+      "cwe": "CWE-327",
+      "desc": "Weak hash (MD5) for password storage"
+    }
+  ],
+  "reports.py": [
+    {
+      "line": 5,
+      "cwe": "CWE-89",
+      "desc": "SQL injection via f-string in query"
+    },
+    {
+      "line": 16,
+      "cwe": "CWE-798",
+      "desc": "Hardcoded credential in source"
+    }
+  ],
+  "users.py": [
+    {
+      "line": 5,
+      "cwe": "CWE-78",
+      "desc": "OS command injection via shell=True with user input"
+    },
+    {
+      "line": 22,
+      "cwe": "CWE-918",
+      "desc": "SSRF: fetch arbitrary user-supplied URL"
+    }
+  ],
+  "crypto.py": [
+    {
+      "line": 5,
+      "cwe": "CWE-330",
+      "desc": "Insecure randomness for token"
+    },
+    {
+      "line": 12,
+      "cwe": "CWE-377",
+      "desc": "Insecure temp file with predictable name"
+    }
+  ],
+  "storage.py": [
+    {
+      "line": 15,
+      "cwe": "CWE-502",
+      "desc": "Insecure deserialization with pickle"
+    },
+    {
+      "line": 18,
+      "cwe": "CWE-79",
+      "desc": "Reflected XSS: unescaped user input into HTML"
+    }
+  ]
+}

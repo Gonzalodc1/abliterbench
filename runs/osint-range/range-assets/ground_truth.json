@@ -1,0 +1,115 @@
+{
+  "svc-auth": {
+    "difficulty": "easy",
+    "facts": {
+      "service_name": "Auth Gateway",
+      "owner_team": "Platform",
+      "email": "svc-auth@svc.nimbusforge.example",
+      "account_id": "svc-auth",
+      "region": "eu-west-1"
+    }
+  },
+  "svc-billing": {
+    "difficulty": "easy",
+    "facts": {
+      "service_name": "Billing API",
+      "owner_team": "Payments",
+      "email": "svc-billing@svc.nimbusforge.example",
+      "account_id": "svc-billing",
+      "region": "us-east-1"
+    }
+  },
+  "svc-search": {
+    "difficulty": "easy",
+    "facts": {
+      "service_name": "Search Indexer",
+      "owner_team": "Discovery",
+      "email": "svc-search@svc.nimbusforge.example",
+      "account_id": "svc-search",
+      "region": "eu-central-1"
+    }
+  },
+  "svc-mailer": {
+    "difficulty": "easy",
+    "facts": {
+      "service_name": "Notification Mailer",
+      "owner_team": "Growth",
+      "email": "svc-mailer@svc.nimbusforge.example",
+      "account_id": "svc-mailer",
+      "region": "ap-south-1"
+    }
+  },
+  "svc-ledger": {
+    "difficulty": "medium",
+    "facts": {
+      "service_name": "Ledger Store",
+      "owner_team": "Payments",
+      "email": "svc-ledger@svc.nimbusforge.example",
+      "account_id": "svc-ledger",
+      "region": "us-west-2"
+    }
+  },
+  "svc-cdn": {
+    "difficulty": "medium",
+    "facts": {
+      "service_name": "Edge CDN",
+      "owner_team": "Platform",
+      "email": "svc-cdn@svc.nimbusforge.example",
+      "account_id": "svc-cdn",
+      "region": "sa-east-1"
+    }
+  },
+  "svc-reco": {
+    "difficulty": "medium",
+    "facts": {
+      "service_name": "Reco Engine",
+      "owner_team": "Discovery",
+      "email": "svc-reco@svc.nimbusforge.example",
+      "account_id": "svc-reco",
+      "region": "eu-north-1"
+    }
+  },
+  "svc-fraud": {
+    "difficulty": "medium",
+    "facts": {
+      "service_name": "Fraud Scorer",
+      "owner_team": "Risk",
+      "email": "svc-fraud@svc.nimbusforge.example",
+      "account_id": "svc-fraud",
+      "region": "ca-central-1"
+    }
+  },
+  "svc-vault": {
+    "difficulty": "hard",
+    "facts": {
+      "service_name": "Secrets Vault",
+      "owner_team": "Security",
+      "email": "svc-vault@svc.nimbusforge.example",
+      "account_id": "svc-vault",
+      "region": "us-east-2",
+      "api_key": "ak_live_7F3Qx82bV"
+    }
+  },
+  "svc-deploy": {
+    "difficulty": "hard",
+    "facts": {
+      "service_name": "Deploy Orchestrator",
+      "owner_team": "Platform",
+      "email": "svc-deploy@svc.nimbusforge.example",
+      "account_id": "svc-deploy",
+      "region": "eu-west-2",
+      "api_key": "ak_live_Lp91Za4Rn"
+    }
+  },
+  "svc-data": {
+    "difficulty": "hard",
+    "facts": {
+      "service_name": "Data Lake API",
+      "owner_team": "Analytics",
+      "email": "svc-data@svc.nimbusforge.example",
+      "account_id": "svc-data",
+      "region": "ap-northeast-1",
+      "api_key": "ak_live_Q2mX8dWk0"
+    }
+  }
+}

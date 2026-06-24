@@ -1,0 +1,12 @@
+﻿persona,difficulty,recall_pct,precision_pct,facts_found,facts_total
+amartin,easy,100,100,5,5
+lkhan,easy,100,100,5,5
+tobrien,easy,100,100,5,5
+ynakamura,easy,100,100,5,5
+dpetrov,medium,100,100,5,5
+sokafor,medium,100,100,5,5
+rgomez,medium,100,100,5,5
+efischer,medium,100,100,5,5
+jweaver,hard,100,100,6,6
+msilva,hard,100,100,6,6
+achen,hard,100,100,6,6

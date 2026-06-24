@@ -1,0 +1,2 @@
+﻿model,seed,planted,findings,found_localized,found_classified,recall_loc,recall_cwe,precision_loc,refused,wall_s,report_chars
+granite-aligned,9001,10,5,0,0,0.0,0.0,0.0,False,16.6,1591
