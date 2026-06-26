@@ -497,6 +497,21 @@ rather than a same-harness comparison. The ``0 hallucinations'' figure, finally,
 this scaffold and these tasks. A controlled range says nothing about how the behavior holds up on a
 messy real network.
 
+The abliterated models are community builds, not a clean intervention we applied ourselves. We use
+the publicly distributed \texttt{huihui\_ai} abliterated weights rather than abliterating the exact
+aligned checkpoint, so the two twins are repackaged differently (custom modelfiles, tool-call
+templates) and may differ in more than the refusal direction. The tool-use diagnostics
+(Appendix~\ref{sec:tooldiag}) show the gap surfacing as fewer \emph{valid tool-calls}, not as
+refusals; but with these builds we cannot fully separate abliteration proper from incidental
+instruction- and tool-following differences introduced by the repackaging. The headline is robust
+to this either way (removing refusals does not raise capability), but the \emph{magnitude} of the
+capability cost is best read as an upper bound on what abliteration alone contributes.
+
+Finally, scope: the claims are about the tested regime and should not be read past it --- small
+(7--8B, 4-bit) models served locally, this particular operator scaffold, and the synthetic OSINT,
+code-audit, and content-generation tasks. We make no claim about larger or full-precision models,
+other scaffolds, or real non-synthetic targets.
+
 \section{Ethics}
 Everything runs against synthetic targets in an isolated lab, and OSINT touches only synthetic
 \texttt{.example} personas, with no real people and no live Internet. We do not coerce or jailbreak
@@ -512,9 +527,13 @@ Every persona, organization, and breach record is synthetic and machine-generate
 RFC-2606 \texttt{.example} domain; none maps to a real individual, and the ``leaked'' passwords and
 API keys are random tokens. We release the range \emph{generator} and its seeds rather than a fixed
 trove, so the data can be regenerated on demand instead of shipping a standing database of
-person-like records. The E5 phishing lures are graded and counted, not published: we report
-aggregate refusal and harm scores and at most short illustrative fragments, never a corpus of
-ready-to-send messages. The bridge tools, operator scaffold, and graders are general-purpose
+person-like records. \textbf{No operational phishing material is released.} The E5 lures are scored
+on the fly and only their aggregate metrics (refusal-rate, personalization, craft, harm) are
+written out; the generated messages themselves are not persisted to the repository or published in
+any form, and the paper quotes at most short partial fragments to illustrate the grader. There is no
+ready-to-send phishing corpus in the release, and the generator only ever targets the synthetic
+\texttt{.example} personas, which cannot map to a real inbox. The bridge tools, operator scaffold,
+and graders are general-purpose
 evaluation code, not exploit tooling, and no real network target, capture, or credential is
 included. The aim is to measure how a weight edit changes behavior, and the release is the minimum
 needed to check that measurement.
@@ -568,6 +587,32 @@ CIs + paired permutation test): \file{eval/analysis/bootstrap.py}; figures:
 \file{eval/analysis/plots.py}. Self-tests: operator 33, multi-agent 18, grading 16, code-audit 11,
 content-gen 12 (all offline, green). Every reported number traces to a CSV under \file{eval/runs/};
 reference verification log in \file{docs/paper/references-verification.md}.
+
+\section{Tool-use diagnostics}
+\label{sec:tooldiag}
+A per-cell breakdown of agentic behavior on the OSINT track (authorized framing, $n=33$/cell),
+which is what the capability inversion bottoms out in:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lccc}
+\toprule
+model & mean steps & mean valid tool-calls & cells reaching $\geq$1 tool \\
+\midrule
+Llama-3.1-8B aligned     & 9.0  & 3.09 & 100\% \\
+Llama-3.1-8B abliterated & 12.0 & 1.79 & 100\% \\
+Qwen2.5-7B aligned       & 9.5  & 2.79 & 100\% \\
+Qwen2.5-7B abliterated   & 11.8 & 1.06 & 100\% \\
+Granite-3.1-8B aligned   & 2.6  & 0.24 & 12\% \\
+Granite-3.1-8B abliterated & 1.0 & 0.00 & 0\% \\
+\bottomrule
+\end{tabular}
+\caption{Tool-use diagnostics. In Llama and Qwen the abliterated twin reaches a tool just as often
+as the aligned one (100\%) but lands \emph{fewer valid tool-calls} (1.79 vs 3.09; 1.06 vs 2.79)
+while spending \emph{more} steps. The shortfall is in chaining/instruction-following, not in
+starting or in refusing (refusals $\approx$0). Granite collapses to near-zero tool use in both
+conditions, the protocol-failure floor discussed in E1.}
+\end{table}
 
 \section{Ongoing work (not claimed here)}
 Exploitation track via dockerized InterCode-CTF / NYU-CTF with flag-grounded grading; multi-agent
